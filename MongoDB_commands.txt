@@ -1,0 +1,92 @@
+MongoDB URLs --
+
+Download this version MongoDB 3.4
+
+
+http://downloads.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-v3.4-latest-signed.msi?_ga=2.234761822.1304868182.1528378034-654554166.1528378034
+
+MongoDB Installation Instructions URL
+
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/#install-mongodb-community-edition
+
+After installation you can see in your drive the following folder structure
+
+MongoDB\Server\3.4\bin
+Under bin folder there are 2 executables
+
+mongod & mongo
+
+create 2 folders on the drive
+first folder "data"
+and then inside of it "db"
+
+run mongod from the bin folder as the following --
+
+mongod --dbpath E:\data\db
+
+
+
+Replication -
+
+Primary 
+
+Secondary
+
+
+Master
+
+Slave
+
+replica sets 
+
+1 GB file
+
+GridFS
+
+LOBs -- store into the db
+2 queries it will fetch
+
+1) fetch metadata
+2) fetch contents
+
+mongod --dbpath E:\data\db
+
+> db
+
+shows all databases
+> use test
+> create db test1
+
+bin folder -->
+
+executables --> apps
+
+mongod --> database service
+mongo --> interactive shell
+> db
+> use test
+> create db employee
+
+command prompt
+
+
+MongoDB
+
+database --> Collection --> document --> fields / key-value pairs
+
+
+
+
+
+RoboMongo -- Front End Client for MongoDB database
+
+
+JSON --> JavaScript Object Notation
+
+xls
+
+csv --> comma separated values
+
+Binary --> 1s & 0s
+
+
