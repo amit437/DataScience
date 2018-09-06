@@ -1,0 +1,73 @@
+PCS[Producer commission System]
+-------------------------------
+DataSet --->
+CA, 5000 
+AZ, 5000
+NY, 5000
+
+Insurance
+
+AUTO LIFE  HEALTH  PET  Others
+CAR
+TRUCK
+BIKE
+BUS
+ 
+   
+Transaction
+NewBusiness-->NB
+RenewBusiness-->RB
+Cancellation-->CB
+UpSell-->US
+CrossSell-->CS
+
+commission
+----------
+Taxes-->7%
+NB-->2%
+UP-->1%
+RB--->5%
+
+1)NB-->2% policy
+
+2)NB+RN--->2%+5%--->7%
+
+3)NB+US-->2%+1%-->3%
+
+4)NB+RB+US-->2%+5%+1%-->8%
+
+5)Earned Premium commission.
+
+6)Unearned premium commision.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
